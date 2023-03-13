@@ -65,3 +65,41 @@ label{
     font-size: 30px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 700px) and (min-width:280px){
+    .item_wel{
+       text-align: center;
+    }
+    .item_head{
+      height: 100%;
+    }
+    .item_time{
+        width: 70%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 50px;
+        font-size: 38px;
+
+    }
+    .item_count{
+        width: 90%;
+        height: 20vh;
+        display: flex; 
+       justify-content: space-between;
+       align-items: center;
+       margin-left: 7%;
+       
+    }
+    
+    input{
+        width: 80%;
+        height: 80px;
+        margin: auto;
+        font-size: 30px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-color: transparent;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
